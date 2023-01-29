@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mvc-usuarios" />
+        <module name="mvc-cursos" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mvc-cursos" options="-parameters" />
       <module name="mvc-usuarios" options="-parameters" />
     </option>
   </component>
